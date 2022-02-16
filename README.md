@@ -3,7 +3,7 @@
 - Upload your image on [Imgur](https://imgur.com/) then get URL image and paste it `imageLink.txt`!
 
 
-*Đóng góp ảnh Genshin Impact cho API, tải lên ảnh trên imgur và paste link vào file `imageLink.txt`
+(Đóng góp ảnh Genshin Impact cho API, tải lên ảnh trên imgur và paste link vào file `imageLink.txt`)
 
 
 Make many beautiful image about Genshin Impact>3 
