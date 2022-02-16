@@ -6,6 +6,6 @@
 (Đóng góp ảnh Genshin Impact cho API, tải lên ảnh trên imgur và paste link vào file `imageLink.txt`)
 
 
-Make many beautiful image about Genshin Impact>3 
+Send many beautiful image about Genshin Impact>3 
 
 - Made with ❤️ GI.
