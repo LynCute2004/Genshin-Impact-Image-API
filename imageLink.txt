@@ -1,1 +1,2 @@
 // send your URL image here!
+// Upload image: https://imgur.com/
