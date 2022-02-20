@@ -12,7 +12,9 @@ API website: https://api-genshin.tk/
 
 # USAGE
 
-- You can use `node-fetch` or `axios` package to fetch URL image. Example:
+- You can use `node-fetch` or `axios` package to fetch URL image. 
+
+- Example:
 ``` js
         const res = await fetch('https://api-genshin.tk/gi-img');
         const img = (await res.json()).url;
