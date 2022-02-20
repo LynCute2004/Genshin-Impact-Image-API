@@ -16,6 +16,7 @@ API website: https://api-genshin.tk/
         const img = (await URL.json()).url;
 
         const embed = new MessageEmbed()
+          .setTitle("Genshin Impact)
           .setImage(img)
           .setTimestamp()
           .setColor("RANDOM")
