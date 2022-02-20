@@ -1,7 +1,7 @@
 # INFO
 - A simple API Discord get image Genshin Impact. 
 - Author: LynCute2004
-- API is updating (this is basic version). Contact me if you want contribute to my API. My server: [Click Here!](https://discord.gg/6TZVye2G3E)
+- API is updating (current version API is basic). Contact me if you want contribute to my API. My server: [Click Here!](https://discord.gg/6TZVye2G3E)
 - Made with ❤️ GI.
 - Thanks for using my API >3
 
