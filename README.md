@@ -3,6 +3,7 @@
 - Author: LynCute2004
 - API is updating (this is basic version). Contact me if you want contribute to my API. My server: [Click Here!](https://discord.gg/6TZVye2G3E)
 - Made with ❤️ GI.
+- Thanks for using my API >3
 
 # GET API
 
