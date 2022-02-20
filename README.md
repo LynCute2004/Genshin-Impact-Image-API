@@ -9,6 +9,8 @@
 
 API website: https://api-genshin.tk/
 
+[API key: Comming Soon]
+
 # USAGE
 
 - You can use `node-fetch` or `axios` package to fetch URL image. Ex for `node-fetch`
