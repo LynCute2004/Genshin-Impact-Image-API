@@ -13,8 +13,8 @@ API website: https://api-genshin.tk/
 
 - You can use `node-fetch` or `axios` package to fetch URL image. Ex for `node-fetch`
 ``` js
-        const URL = await fetch('https://api-genshin.tk/gi-image');
-        const img = (await URL.json()).url;
+        const res = await fetch('https://api-genshin.tk/gi-image');
+        const img = (await res.json()).url;
 
         const embed = new MessageEmbed()
           .setTitle("Genshin Impact)
