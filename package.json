@@ -1,0 +1,22 @@
+{
+  "name": "genshin-impact-image-api",
+  "version": "1.0.0",
+  "description": "A simple API Discord get image Genshin Impact.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LynCute2004/Genshin-Impact-Image-API.git"
+  },
+  "keywords": [
+    "giapi"
+  ],
+  "author": "LynCute2004",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LynCute2004/Genshin-Impact-Image-API/issues"
+  },
+  "homepage": "https://github.com/LynCute2004/Genshin-Impact-Image-API#readme"
+}
