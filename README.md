@@ -30,6 +30,8 @@ axios.get('https://gi-api.cf/api/v1/waifu?apikey={key_api}')
     console.log(res.data.url)
 })
 ```
+![image](https://user-images.githubusercontent.com/52123370/156883380-c06a7f40-d1bd-441c-a595-a6e24947b891.png) ![image](https://user-images.githubusercontent.com/52123370/156883410-42ec4213-68dd-4bd2-a3c0-421318da0b85.png)
+
 
 
 
