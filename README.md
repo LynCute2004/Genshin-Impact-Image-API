@@ -18,14 +18,14 @@
 ### **Note:**
 
 > Example: 
-```https://api.genshin-impact.cf/api/v1/waifu?apikey=abcdXYZ123```
+```https://genshin-impact.cf/api/v1/waifu?apikey=abcdXYZ123```
 
 > *abcdXYZ123* is api key.
 # USAGE
 ```js
 // npm install axios
 
-axios.get('https://api.genshin-impact.cf/api/v1/waifu?apikey={key_api}')
+axios.get('https://genshin-impact.cf/api/v1/waifu?apikey={key_api}')
 .then(res => {
     console.log(res.data.url)
 })
