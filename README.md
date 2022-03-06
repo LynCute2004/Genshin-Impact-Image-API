@@ -14,7 +14,7 @@
 | Endpoint  | Get |
 | ------------- | ------------- |
 | waifu  | ```waifu?apikey={key_api}```  |
-
+| cosplay  | ```cosplay?apikey={key_api}```  |
 ### **Note:**
 
 > Example: 
@@ -25,7 +25,7 @@
 ```js
 // npm install axios
 
-axios.get('https://gi-api.cf/api/v1/waifu?apikey={key_api}')
+axios.get('https://gi-api.cf/api/v1/endpoint?apikey={key_api}')
 .then(res => {
     console.log(res.data.url)
 })
