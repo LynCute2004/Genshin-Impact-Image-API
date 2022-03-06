@@ -30,8 +30,10 @@ axios.get('https://gi-api.cf/api/v1/endpoint?apikey={key_api}')
     console.log(res.data.url)
 })
 ```
-![image](https://user-images.githubusercontent.com/52123370/156883380-c06a7f40-d1bd-441c-a595-a6e24947b891.png) ![image](https://user-images.githubusercontent.com/52123370/156883410-42ec4213-68dd-4bd2-a3c0-421318da0b85.png)
-
+| Name  | Image |
+| ------------- | ------------- |
+| waifu  | ![image](https://user-images.githubusercontent.com/52123370/156928297-5c9e94f0-c062-42df-babb-c56cbb2e7773.png)  |
+| cosplay  | ![image](https://user-images.githubusercontent.com/52123370/156928162-2ed2aa49-9464-42c5-b7f0-a4288b8944d5.png)  |
 
 
 
