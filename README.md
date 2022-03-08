@@ -8,7 +8,7 @@
 - Author: LynCute#2004
 - Contributors: ly#5580, Hy#1284 
 # GET API (Updating)
-> Invite **[Ayaka Bot](https://discord.com/api/oauth2/authorize?client_id=941691919224946740&permissions=8&scope=bot%20applications.commands)** to get Free Key API. Dms for  [LynCute#2004](https://discordapp.com/users/573805531773272064) to get more information.
+> Comming Soon.
 
 # Endpoints (Updating)
 | Endpoint  | GET |
