@@ -30,7 +30,7 @@ axios.get('https://gi-api.cf/api/v1/endpoint?apikey={key_api}')
     console.log(res.data.url)
 })
 ```
-![image](https://user-images.githubusercontent.com/52123370/156928297-5c9e94f0-c062-42df-babb-c56cbb2e7773.png) ![image](https://user-images.githubusercontent.com/52123370/156928162-2ed2aa49-9464-42c5-b7f0-a4288b8944d5.png)
+![image](https://user-images.githubusercontent.com/52123370/157243146-b3074aae-a644-4fc2-8c2c-5a0c8a2b62f1.png) ![image](https://user-images.githubusercontent.com/52123370/157242345-023c218c-5d2b-43d7-b11a-dff690fecf62.png)
 
 
 
