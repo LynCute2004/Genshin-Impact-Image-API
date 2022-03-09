@@ -15,20 +15,8 @@
 | ------------- | ------------- |
 | waifu  | ```waifu?apikey={key_api}```  |
 | cosplay  | ```cosplay?apikey={key_api}```  |
-### **Note:**
 
-> Example: 
-```https://gi-api.cf/api/v1/waifu?apikey=abcdXYZ123```
-
-> *abcdXYZ123* is api key.
-# USAGE
-```js
-// npm install axios
-
-axios.get('https://gi-api.cf/api/v1/endpoint?apikey={key_api}')
-.then(res => {
-    console.log(res.data.url)
-})
+# USAGE (Comming Soon)
 ```
 ![image](https://user-images.githubusercontent.com/52123370/157243146-b3074aae-a644-4fc2-8c2c-5a0c8a2b62f1.png) ![image](https://user-images.githubusercontent.com/52123370/157242345-023c218c-5d2b-43d7-b11a-dff690fecf62.png)
 
