@@ -20,7 +20,6 @@
 > *Image Examples:*
 
 
-![image](https://user-images.githubusercontent.com/52123370/178935636-d857b780-6761-4e2e-8f8a-e911bc5592cf.png) ![image](https://user-images.githubusercontent.com/52123370/157242345-023c218c-5d2b-43d7-b11a-dff690fecf62.png)
-
+![image](https://user-images.githubusercontent.com/52123370/178935636-d857b780-6761-4e2e-8f8a-e911bc5592cf.png) ![image](https://user-images.githubusercontent.com/52123370/178936936-f109d4d3-9759-444e-994c-59a128e1b725.png)
 
 
