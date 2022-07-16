@@ -8,8 +8,9 @@
 - Author: LynCute#2004
 - Contributors: ly#5580, Hy#1284 
 ## Contents
-- [How to use as API](#get-api-updating)
-
+- [Information of API](#info)
+- [How to get API](#get-api-updating)
+- [How to uses as API](#usage-comming-soon)
 # GET API (Updating)
 > All requests must be sent to the following base url: `http://gi-image-api.tk/` 
 
