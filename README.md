@@ -4,12 +4,12 @@
 - Contribute image - My server: [Click Here!](https://discord.gg/6TZVye2G3E)
 - Made with ❤️ GI.
 - Thanks for using my API >3
-## Check Logs
-- [x] **Created at: 16/02/2022**
-- [x] **Updating Ver 1: 16/07/2022**
 ## Developers
 - Author: LynCute#2004
 - Contributors: ly#5580, Hy#1284 
+## Check Logs
+- [x] **Created at: 16/02/2022**
+- [x] **Updating Ver 1: 16/07/2022**
 ## Contents
 - [Information of API (Dev)](#info)
 - [Check logs of API](#check-logs)
