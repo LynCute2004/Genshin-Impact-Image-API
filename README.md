@@ -18,7 +18,7 @@ To send a request to the api, you will need a category to specify.
 
 - Method: **GET**
 - Path: `/api/categories`
-  ```
+
 # Endpoints (Updating)
 | Endpoint  | GET |
 | ------------- | ------------- |
