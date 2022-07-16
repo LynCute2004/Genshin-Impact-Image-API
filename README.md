@@ -10,8 +10,16 @@
 # GET API (Updating)
 > All requests must be sent to the following base url: `http://gi-image-api.tk/` 
 
-> Get API: `http://gi-image-api.tk/:category?apikey={key_api}`
+> Get API: `http://gi-image-api.tk/api/:category?apikey={key_api}`
 
+### Categories
+
+To send a request to the api, you will need a category to specify.
+
+- Method: **GET**
+- Path: `/api/categories`
+  ```
+  
 # Endpoints (Updating)
 | Endpoint  | GET |
 | ------------- | ------------- |
