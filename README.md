@@ -8,7 +8,7 @@
 - Author: LynCute#2004
 - Contributors: ly#5580, Hy#1284 
 # GET API (Updating)
-> GI-Image-API URL: `http://gi-image-api.tk/` 
+> All requests must be sent to the following base url: `http://gi-image-api.tk/` 
 
 > Get API: `http://gi-image-api.tk/:category?apikey={key_api}`
 
