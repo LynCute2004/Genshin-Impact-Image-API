@@ -11,7 +11,7 @@
 - Contributors: ly#5580, Hy#1284 
 ## Contents
 - [Information of API (Dev)](#info)
-- [Check logs of API](#checks-logs)
+- [Check logs of API](#check-logs)
 - [How to get API](#get-api-updating)
 - [How to uses as API](#usage-comming-soon)
 # GET API (Updating)
