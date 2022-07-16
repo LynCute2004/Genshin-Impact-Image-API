@@ -8,9 +8,9 @@
 - Author: LynCute#2004
 - Contributors: ly#5580, Hy#1284 
 # GET API (Updating)
-GI-Image-API URL: `http://gi-image-api.tk/` 
+> GI-Image-API URL: `http://gi-image-api.tk/` 
 
-Get API: `http://gi-image-api.tk/:category?apikey={key_api}`
+> Get API: `http://gi-image-api.tk/:category?apikey={key_api}`
 
 # Endpoints (Updating)
 | Endpoint  | GET |
