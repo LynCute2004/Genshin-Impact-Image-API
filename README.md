@@ -8,7 +8,9 @@
 - Author: LynCute#2004
 - Contributors: ly#5580, Hy#1284 
 # GET API (Updating)
-> Comming Soon.
+URL: `http://gi-image-api.tk/` (updating)
+
+Get API: `http://gi-image-api.tk/:category?apikey={key_api}`
 
 # Endpoints (Updating)
 | Endpoint  | GET |
