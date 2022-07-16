@@ -5,6 +5,7 @@
 - Made with ❤️ GI.
 - Thanks for using my API >3
 ## Check Logs
+- [x] **Created at: 16/02/2022**
 - [x] **Updating Ver 1: 16/07/2022**
 ## Developers
 - Author: LynCute#2004
