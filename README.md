@@ -17,27 +17,33 @@
 - [How to get API](#get-api-updating)
 - [How to uses as API](#usage-comming-soon)
 # GET API (Updating)
-> All requests must be sent to the following base url: `http://gi-image-api.tk/` 
-
-> Get API: `http://gi-image-api.tk/api/:category?apikey={key_api}`
+> Base URLs: `https://gi-img-api.ak-team.repl.co/`
 
 ### Categories
 
 To send a request to the api, you will need a category to specify.
 
 - Method: **GET**
-- Path: `/api/category`
+- Path: `/api/genshin`
+- Query Parameters: none
+- Response:
+```js
+{"method":"GET","base_url":"https://gi-img-api.ak-team.repl.co/api/genshin/:endpoint","endpoints":"https://gi-img-api.ak-team.repl.co/api/genshin"}
+```
 
-# Endpoints (Updating)
-| Endpoint  | GET |
-| ------------- | ------------- |
-| waifu  | ```waifu?apikey={key_api}```  |
-| cosplay  | ```cosplay?apikey={key_api}```  |
+# Endpoints
+Example request:
+``` js
+// npm install axios
+axios.get('https://gi-img-api.ak-team.repl.co/api/genshin/:endpoint')
+.then(res => { console.log(res.data.url) })
+```
 
-# USAGE (Comming Soon)
+# API Key (Comming soon)
+
+# USAGE 
 > *Image Examples:*
 
 
 ![image](https://user-images.githubusercontent.com/52123370/178935636-d857b780-6761-4e2e-8f8a-e911bc5592cf.png) ![image](https://user-images.githubusercontent.com/52123370/178936936-f109d4d3-9759-444e-994c-59a128e1b725.png)
-
 
