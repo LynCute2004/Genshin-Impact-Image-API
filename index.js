@@ -5,7 +5,7 @@ const fs = require("fs");
 
 const { ClientError, ServerError } = require('./utils/error');
 
-let endpoints = ["character", "cosplay"];
+const endpoints = require("./lib/endpoint");
 
 const base_url = "https://gi-img-api.ak-team.repl.co";
 
