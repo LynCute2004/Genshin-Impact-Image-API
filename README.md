@@ -46,7 +46,7 @@ axios.get('https://gi-img-api.ak-team.repl.co/api/genshin/:endpoint')
 
 ### API Key (Comming soon)
 
-# USAGE 
+### Use as API 
 > *Image Examples:*
 
 
