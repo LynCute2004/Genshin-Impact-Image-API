@@ -5,13 +5,15 @@ const fs = require("fs");
 
 const { ClientError, ServerError } = require('./utils/error');
 
-const endpoints = require("./lib/endpoint");
+let endpoints = ["character", "cosplay"];
+
+const base_url = "https://genshin-img-api.ak-team.repl.co";
+
 
 app.use(cors());
 
-app.use('/api', require('./routes/api'));
 
-// Error Handler
+// Error 
 app.use((err, req, res, next) => {
   if (err instanceof ClientError || err instanceof ServerError) {
     res.status(err.status).json({
@@ -24,48 +26,30 @@ app.use((err, req, res, next) => {
   }
 });
 
-app.get ("/", (req, res) => res.send('Ok!'))
+app.get ("/", (req, res) => res.send({"method": "GET", "base_url": `${base_url}/api/genshin/:endpoint`, "endpoints": `${base_url}/api/genshin`}));
 
-// Get Char Image
-app.get("/api/genshin/character", (req, res) => {
-  res.json({url: fs.readdirSync('public/images/character')[Math.floor(Math.random() * fs.readdirSync('public/images/character').length)]})
-});
-
-let Charfolders = fs.readdirSync('public/images')
-for (const folder of Charfolders){
-  let files = fs.readdirSync(`public/images/${folder}`)
-  console.log(`${folder}: ${files.length}`)
-files.forEach(f => {
-  app.get(`/images/${f}`, (req, res) => {
-    fs.createReadStream(`public/images/${folder}/${f}`).pipe(res)
-  })
+const axios = require("axios");
+app.get("/api/genshin", (req, res) => {
+  res.send({"endpoints": "character, cosplay"})
 })
-};
-
-// Get Cos Image
-app.get("/api/genshin/cosplay", (req, res) => {
-  res.json({url: fs.readdirSync('public/images/cosplay')[Math.floor(Math.random() * fs.readdirSync('public/images/cosplay').length)]})
-});
-
-let Cosfolders = fs.readdirSync('public/images')
-for (const folder of Cosfolders){
-  let files = fs.readdirSync(`public/images/${folder}`)
-  console.log(`${folder}: ${files.length}`)
-files.forEach(f => {
-  app.get(`/images/${f}`, (req, res) => {
-    fs.createReadStream(`public/images/${folder}/${f}`).pipe(res)
-  })
-})
-};
+app.get("/api/genshin/:endpoint", (req, res) => {
+    if(endpoints.includes(req.params.endpoint)) {
+        axios.get(base_url + req.params.endpoint).then((response) => {   
+           res.json({"url": response.data.url})         
+          // console.log('RES:', response.data.url) 
+        })   
+        } else {
+            res.send({"status": "Error!"});
+        }});
 
 // Status 404
 app.use((req, res) => {
-  res.status(404).send({error: "404 Not Found"})
-});
-
-// App ready!
-app.listen(process.env.PORT, () => {
-  console.log(`Connected. Listening on port ${process.env.PORT || 3005 }!`)
-});
-
-module.exports = app;
+    res.status(404).send({error: "404 Not Found"})
+  });
+  
+  // App ready!
+  app.listen(process.env.PORT, () => {
+    console.log(`Connected. Listening on port ${process.env.PORT || 3005 }!`)
+  });
+  
+  module.exports = app;
