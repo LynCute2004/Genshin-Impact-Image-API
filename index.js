@@ -7,7 +7,7 @@ const { ClientError, ServerError } = require('./utils/error');
 
 let endpoints = ["character", "cosplay"];
 
-const base_url = "https://genshin-img-api.ak-team.repl.co";
+const base_url = "https://gi-img-api.ak-team.repl.co";
 
 
 app.use(cors());
@@ -34,7 +34,7 @@ app.get("/api/genshin", (req, res) => {
 })
 app.get("/api/genshin/:endpoint", (req, res) => {
     if(endpoints.includes(req.params.endpoint)) {
-        axios.get(base_url + req.params.endpoint).then((response) => {   
+        axios.get(base_url + "/" + req.params.endpoint).then((response) => {   
            res.json({"url": response.data.url})         
           // console.log('RES:', response.data.url) 
         })   
