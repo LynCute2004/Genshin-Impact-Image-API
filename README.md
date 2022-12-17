@@ -34,8 +34,8 @@ To send a request to the api, you will need a category to specify.
 ### Endpoints
 
 List endpoints: 
-- Character: Get random image of GI char
-- Cosplay: Get random image of GI cosplay
+- `Character`: Get random image of GI char
+- `Cosplay`: Get random image of GI cosplay
 
 Example request:
 ``` js
