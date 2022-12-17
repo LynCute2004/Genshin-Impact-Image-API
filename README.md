@@ -10,6 +10,7 @@
 ## Check Logs
 - [x] **Created at: 16/02/2022**
 - [x] **Updating Ver 1: 16/07/2022**
+- [x] **Repulic project: 17/12/2022**
 ## Contents
 - [Information of API (Dev)](#info)
 - [Check logs of API](#check-logs)
