@@ -35,8 +35,8 @@ To send a request to the api, you will need a category to specify.
 ### Endpoints
 
 List endpoints: 
-- `Character`: Get random image of GI char
-- `Cosplay`: Get random image of GI cosplay
+- `Character`
+- `Cosplay`
 
 Example request:
 ``` js
@@ -45,7 +45,6 @@ axios.get('https://gi-img-api.ak-team.repl.co/api/genshin/:endpoint')
 .then(res => { console.log(res.data.url) })
 ```
 
-### Usage
 > *Image Examples:*
 
 
