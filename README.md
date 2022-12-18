@@ -29,7 +29,7 @@ To send a request to the api, you will need a category to specify.
 - Query Parameters: none
 - Response:
 ```js
-{"method":"GET","base_url":"https://gi-img-api.ak-team.repl.co/api/genshin/:endpoint","endpoints":"https://gi-img-api.ak-team.repl.co/api/genshin"}
+{"method":"GET","base_url":"https://gi-img-api.ak-team.repl.co/api/genshin/:endpoint","endpoints":"https://gi-img-api.ak-team.repl.co/api/genshin","github":"https://github.com/LynCute2004/Genshin-Impact-Image-API"}
 ```
 
 ### Endpoints
