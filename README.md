@@ -45,7 +45,7 @@ axios.get('https://gi-img-api.ak-team.repl.co/api/genshin/:endpoint')
 .then(res => { console.log(res.data.url) })
 ```
 
-> *Image Examples:*
+*Previewa:*
 
 
 ![image](https://user-images.githubusercontent.com/52123370/178935636-d857b780-6761-4e2e-8f8a-e911bc5592cf.png) ![image](https://user-images.githubusercontent.com/52123370/178936936-f109d4d3-9759-444e-994c-59a128e1b725.png)
