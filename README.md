@@ -15,8 +15,9 @@
 - [Information of API (Dev)](#info)
 - [Check logs of API](#check-logs)
 - [How to get API](#get-api-updating)
+- [How to uses as API](#endpoints)
 
-# GET API (Updating)
+# GET API
 > Base URLs: `https://gi-img-api.ak-team.repl.co/`
 
 ### Categories
@@ -46,7 +47,7 @@ axios.get('https://gi-img-api.ak-team.repl.co/api/genshin/:endpoint')
 
 ### API Key (Comming soon)
 
-### Use as API 
+### Usage
 > *Image Examples:*
 
 
