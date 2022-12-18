@@ -45,7 +45,7 @@ app.use((req, res) => {
   
   // App ready!
   app.listen(process.env.PORT, () => {
-    console.log(`✔️ Listening on port ${process.env.PORT || 3005 }!`)
+    console.log(`Listening on port ${process.env.PORT || 3005 }!`)
   });
   
   module.exports = app;
