@@ -35,8 +35,8 @@ To send a request to the api, you will need a category to specify.
 ### Endpoints
 
 List endpoints: 
-- `Character`
-- `Cosplay`
+- `/character`
+- `/cosplay`
 
 Example request:
 ``` js
