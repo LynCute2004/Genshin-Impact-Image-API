@@ -41,7 +41,7 @@ List endpoints:
 Example request:
 ``` js
 // npm install axios
-const base_url = ["https://gi-img-api.ak-team.repl.co/"]
+const base_url = ["https://gi-img-api.ak-team.repl.co"]
 axios.get(`${base_url}/api/genshin/:endpoint`)
 .then(res => { console.log(res.data.url) })
 ```
