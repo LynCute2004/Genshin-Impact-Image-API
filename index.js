@@ -5,10 +5,9 @@ const fs = require("fs");
 
 const { ClientError, ServerError } = require('./utils/error');
 
-const endpoints = require("./lib/endpoint");
+let endpoints = require("./lib/endpoint");
 
-const base_url = "https://gi-img-api.ak-team.repl.co";
-
+const base_url = "https://gi-img-api.ak-team.repl.co/";
 
 app.use(cors());
 
@@ -26,11 +25,13 @@ app.use((err, req, res, next) => {
   }
 });
 
+app.get ("/", (req, res) => res.send("Welcome to my site! Github: https://github.com/LynCute2004/Genshin-Impact-Image-API"));
+
 const axios = require("axios");
 
 app.get("/api/genshin/:endpoint", (req, res) => {
     if(endpoints.includes(req.params.endpoint)) {
-        axios.get(base_url + "/" + req.params.endpoint).then((response) => {   
+        axios.get(base_url + "api" + "/" + "genshin" + "/" + req.params.endpoint).then((response) => {   
            res.json({"url": response.data.url})         
           // console.log('RES:', response.data.url) 
         })   
@@ -40,12 +41,12 @@ app.get("/api/genshin/:endpoint", (req, res) => {
 
 // Status 404
 app.use((req, res) => {
-    res.status(404).send({error: "404 Not Found"})
+    res.status(404).send({error: "404 Not Found!"})
   });
   
   // App ready!
   app.listen(process.env.PORT, () => {
-    console.log(`Listening on port ${process.env.PORT || 3005 }!`)
+    console.log(`Connected to server. Listening on port ${process.env.PORT || 3005 }!`)
   });
   
   module.exports = app;
