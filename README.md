@@ -14,7 +14,7 @@
 ## Contents
 - [Information of API (Dev)](#info)
 - [Check logs of API](#check-logs)
-- [How to get API](#get-api-updating)
+- [How to get API](#get-api)
 - [How to uses as API](#endpoints)
 
 # GET API
