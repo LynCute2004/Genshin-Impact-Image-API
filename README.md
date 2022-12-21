@@ -1,6 +1,6 @@
 # INFO
 - A simple API Discord get random image Genshin Impact. 
-- API still developing. **Current Version 1.0** 
+- API still developing.
 - Contribute image - My server: [Click Here!](https://discord.gg/6TZVye2G3E)
 - Made with ❤️ GI.
 - Thanks for using my API >3
